@@ -21,6 +21,6 @@ export default {
 		};
 		app.directive('format', { bind: bindVueFunc, update: bindVueFunc });
 		if (app.version >= '3') app.config.globalProperties.textFormat = func;
-		else Vue.prototype.textFormat = func;
+		else app.prototype.textFormat = func;
 	}
 };

@@ -1,5 +1,5 @@
 {
-  "name": "vue-text-format",
+  "name": "vue3-text-format",
   "version": "1.2.6",
   "description": "Used in projects, in accordance with Excel custom format rules.",
   "main": "src/main.js",
